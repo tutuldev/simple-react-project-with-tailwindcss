@@ -1,0 +1,15 @@
+npm create vite@latest
+npm install
+npm run dev
+
+install tailwind css ->>
+npm install tailwindcss @tailwindcss/vite
+
+vite.config.js-->
+import this:
+import tailwindcss from '@tailwindcss/vite'
+  plugins: [react(), tailwindcss(),],
+
+  index.css:
+  remove all code and import the code blew
+  @import "tailwindcss";
